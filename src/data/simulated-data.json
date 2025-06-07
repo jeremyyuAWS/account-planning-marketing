@@ -1,0 +1,111 @@
+{
+  "mockDeals": [
+    {
+      "customerName": "Acme Corp",
+      "contactName": "Sarah Thompson",
+      "designation": "VP of Product",
+      "context": "Acme recently launched a new user analytics platform and is scaling their product team rapidly.",
+      "goal": "Drive a discovery call to show how our AI can enhance product feedback loops and reduce time-to-insight."
+    },
+    {
+      "customerName": "TechFlow Solutions",
+      "contactName": "Marcus Rodriguez",
+      "designation": "CTO",
+      "context": "TechFlow is modernizing their data infrastructure and evaluating AI-powered solutions for customer insights.",
+      "goal": "Schedule a technical demo to showcase our enterprise AI capabilities and integration options."
+    },
+    {
+      "customerName": "GrowthHack Inc",
+      "contactName": "Jennifer Kim",
+      "designation": "Head of Marketing",
+      "context": "GrowthHack is expanding internationally and needs better attribution and customer journey analytics.",
+      "goal": "Book a strategy session to discuss how our platform can optimize their multi-channel campaigns."
+    }
+  ],
+  "designations": [
+    "CEO",
+    "CTO",
+    "VP of Product", 
+    "VP of Engineering",
+    "Head of Marketing",
+    "VP of Sales",
+    "Chief Data Officer",
+    "Director of Analytics",
+    "Product Manager",
+    "Engineering Manager",
+    "CMO",
+    "VP of Marketing"
+  ],
+  "competitiveIntelligence": {
+    "primaryCompetitors": [
+      {
+        "name": "DataInsight Pro",
+        "weaknesses": ["Complex implementation", "Poor customer support", "Limited API flexibility"],
+        "pricing": "30% more expensive",
+        "implementationTime": "6-9 months"
+      },
+      {
+        "name": "AnalyticsMaster",
+        "weaknesses": ["Outdated UI", "No real-time processing", "Compliance gaps"],
+        "pricing": "Similar pricing but hidden costs",
+        "implementationTime": "4-6 months"
+      },
+      {
+        "name": "SmartMetrics Suite",
+        "weaknesses": ["Vendor lock-in", "Limited customization", "Scaling issues"],
+        "pricing": "Lower upfront but high TCO",
+        "implementationTime": "3-5 months"
+      }
+    ],
+    "marketTrends": [
+      "83% of companies switching from legacy analytics platforms in 2024",
+      "Real-time decision making becoming table stakes",
+      "Compliance requirements tightening across industries",
+      "AI-first platforms showing 40% better ROI"
+    ],
+    "urgencyTriggers": [
+      "Q4 budget cycles closing soon",
+      "Competitor advantages in market",
+      "Regulatory deadline pressure",
+      "Team productivity gaps widening"
+    ]
+  },
+  "emailTemplates": {
+    "default": {
+      "email1": {
+        "subject": "Helping {customerName} Scale {industry} Insights",
+        "body": "Hi {contactName},\n\nNoticed {customerName} {context}. Many {designation}s we work with face challenges turning data into actionable insights quickly.\n\nOur AI platform has helped similar companies reduce time-to-decision by 40% while improving accuracy.\n\nWould it make sense to show you how it works?\n\nBest regards,\n[Your Name]"
+      },
+      "email2": {
+        "subject": "Re: {customerName} - Quick ROI Calculation",
+        "body": "Hi {contactName},\n\nFollowing up on my previous email about AI-powered insights for {customerName}.\n\nI ran some quick numbers based on your industry - companies like yours typically see:\n• 40% reduction in analysis time\n• 25% improvement in decision accuracy\n• $200K+ annual savings in operational efficiency\n\nHappy to walk through a personalized ROI model for {customerName}.\n\nWhen would be a good time for a 15-minute call?\n\nBest,\n[Your Name]"
+      },
+      "email3": {
+        "subject": "How [Similar Company] Achieved 3x Faster Insights",
+        "body": "Hi {contactName},\n\nThought you'd find this interesting - we recently helped a {industry} company similar to {customerName} achieve remarkable results:\n\n• Reduced reporting time from days to hours\n• Improved forecast accuracy by 35%\n• Enabled real-time decision making across teams\n\nThe transformation took just 6 weeks from implementation to full adoption.\n\nI'd love to share the detailed case study and discuss how we could achieve similar results for {customerName}.\n\nAre you available for a brief call this week?\n\nBest regards,\n[Your Name]"
+      },
+      "email4": {
+        "subject": "Final follow-up: {customerName} AI Implementation",
+        "body": "Hi {contactName},\n\nI hope you've had a chance to consider how AI-powered insights could benefit {customerName}.\n\nGiven your current initiatives around {context}, now might be the perfect time to explore this opportunity.\n\nI'm offering complimentary strategy sessions this month for qualified {industry} leaders. This would include:\n• Custom ROI analysis for {customerName}\n• Proof-of-concept with your actual data\n• Implementation roadmap tailored to your goals\n\nShall I reserve a slot for you? I have availability on [Day 1] at [Time] or [Day 2] at [Time].\n\nLooking forward to helping {customerName} achieve its goals.\n\nBest,\n[Your Name]"
+      }
+    },
+    "competitive": {
+      "email1": {
+        "subject": "Before You Choose [Competitor]: Critical Comparison for {customerName}",
+        "body": "Hi {contactName},\n\nI understand {customerName} may be evaluating multiple AI analytics platforms right now. Before making your final decision, I wanted to share some critical insights that could save you significant time and budget.\n\nWe've helped 50+ companies migrate FROM legacy platforms like [Competitor] after they hit major roadblocks:\n\n❌ [Competitor]: 6-9 month implementation, limited API flexibility\n✅ Our Platform: 6-week deployment, enterprise-grade APIs\n\n❌ [Competitor]: 30% higher TCO due to hidden costs\n✅ Our Platform: Transparent pricing, 40% lower 3-year cost\n\n❌ [Competitor]: Compliance gaps causing audit failures\n✅ Our Platform: SOC 2, GDPR, HIPAA certified out-of-box\n\nWorth a 15-minute comparison call to ensure you're making the best choice for {customerName}?\n\nBest regards,\n[Your Name]\n\nP.S. I can share the detailed competitive analysis we prepared for similar {industry} companies."
+      },
+      "email2": {
+        "subject": "Why 3 Companies Left [Competitor] for Us This Quarter",
+        "body": "Hi {contactName},\n\nFollowing up on the competitive analysis for {customerName}.\n\nThis quarter alone, we've onboarded 3 companies who switched from [Competitor] due to critical limitations:\n\n🔍 **Case 1: TechCorp** (Similar to {customerName})\n• Problem: [Competitor]'s implementation took 8 months vs promised 3\n• Solution: We delivered in 5 weeks with full feature parity\n• Result: 60% faster time-to-insights, $300K saved in consulting fees\n\n📊 **Case 2: DataFlow Inc**\n• Problem: [Competitor] couldn't handle real-time processing at scale\n• Solution: Our platform processes 10M+ events/second seamlessly\n• Result: Enabled real-time personalization, 25% revenue increase\n\n🔒 **Case 3: SecureAnalytics**\n• Problem: [Competitor] failed compliance audit, faced regulatory fines\n• Solution: Our built-in compliance framework passed first audit\n• Result: Zero compliance issues, avoided $2M in potential penalties\n\nThe pattern is clear: {customerName} deserves better than the limitations these companies faced.\n\nCan we schedule 20 minutes to discuss how to avoid these pitfalls?\n\nBest,\n[Your Name]"
+      },
+      "email3": {
+        "subject": "URGENT: {industry} Competitive Intelligence Report",
+        "body": "Hi {contactName},\n\nJust compiled our Q4 {industry} competitive intelligence report - the findings about [Competitor] are concerning for companies like {customerName}.\n\n🚨 **Critical Market Shifts:**\n• 83% of {industry} companies plan to switch analytics platforms in 2024\n• [Competitor] losing market share due to implementation failures\n• Real-time AI capabilities now mandatory for competitive advantage\n• New compliance requirements favor modern, cloud-native platforms\n\n📈 **Why Leaders Are Switching to Us:**\n• 3x faster implementation (6 weeks vs 6 months)\n• 50% better performance on real-time analytics\n• Zero compliance gaps (vs 89% of legacy platforms)\n• 40% lower total cost of ownership\n\n⏰ **Time-Sensitive Opportunity:**\nWe're prioritizing Q4 implementations to help companies avoid the competitive disadvantage that comes with delayed analytics modernization.\n\n{customerName} has the chance to leapfrog competitors who are stuck with outdated platforms.\n\nShall we discuss how to position {customerName} ahead of the market? I have slots available this week.\n\nBest regards,\n[Your Name]\n\nP.S. Happy to share the full competitive report - it includes specific guidance for {industry} leaders like yourself."
+      },
+      "email4": {
+        "subject": "Final Call: Don't Let [Competitor] Set {customerName} Back 12 Months",
+        "body": "Hi {contactName},\n\nThis is my final outreach regarding {customerName}'s analytics platform decision.\n\nI'll be direct: choosing [Competitor] could set your team back 12+ months and cost significantly more than necessary.\n\n**The Reality Check:**\n• [Competitor] customers report 6-9 month implementations vs our 6-week average\n• 67% of [Competitor] projects go over budget due to hidden complexity\n• Their platform struggles with the real-time requirements modern {industry} companies need\n• No clear migration path when you inevitably need to upgrade\n\n**What {customerName} Risks Missing:**\n• Q1 competitive advantage window\n• $200K+ in operational savings over 3 years\n• Real-time decision-making capabilities your competitors are gaining\n• Modern AI features that could transform your {context}\n\n**Limited-Time Offer for {customerName}:**\nTo help you avoid the [Competitor] trap, I'm authorized to offer:\n✅ Expedited 4-week implementation\n✅ Free migration from any legacy platform\n✅ 6-month success guarantee or full refund\n✅ Direct access to our executive team\n\nThis offer expires Friday as we're finalizing our Q4 implementation calendar.\n\nDon't let a poor platform choice limit {customerName}'s potential. Let's ensure you make the right decision.\n\nAre you available for a final 15-minute call this week?\n\nBest regards,\n[Your Name]\n\n📞 Direct line: [Phone]\n📅 Book directly: [Calendar Link]"
+      }
+    }
+  }
+}
